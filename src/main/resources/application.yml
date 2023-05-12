@@ -1,3 +1,6 @@
 spring:
   application:
     name: paketo-weather-ms
+
+  server:
+    port: 8081
