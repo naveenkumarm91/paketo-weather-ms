@@ -3,14 +3,15 @@ package com.app.paketo.to;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import lombok.ToString;
 
 import java.util.List;
 import java.util.Map;
 
 @Data
-@Builder
 @ToString
+@NoArgsConstructor
 public class WeatherTO {
 
     @JsonProperty("coord")
