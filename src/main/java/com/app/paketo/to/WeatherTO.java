@@ -50,7 +50,9 @@ public class WeatherTO {
         private String longitude;
     }
 
-    private static class Weather {
+    @Data
+    @ToString
+    public static class Weather {
         @JsonProperty("id")
         private long id;
         @JsonProperty("main")
@@ -59,6 +61,7 @@ public class WeatherTO {
         private String description;
         @JsonProperty("icon")
         private String icon;
+        private String iconUrl;
     }
 
     private static class Main {

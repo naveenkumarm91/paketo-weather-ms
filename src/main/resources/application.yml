@@ -8,3 +8,8 @@ paketo:
   weather:
     url: https://api.openweathermap.org/data/2.5/weather
     api-key:
+  geo:
+    url: http://api.openweathermap.org/geo/1.0/direct
+  icon:
+    url: https://openweathermap.org/img/wn/
+    url-suffix: "@2x.png"
